@@ -27,6 +27,14 @@
   <!-- Custom styles for this template -->
   <link href="css/freelancer.min.css" rel="stylesheet">
 
+  <!-- CSS -->
+  <style>
+    #seb {
+      height: 300px;
+      width: 300px;
+    }
+  </style>
+
 </head>
 
 <body id="page-top">
@@ -63,7 +71,8 @@
   <!-- Header -->
   <header class="masthead bg-primary text-white text-center" id="page-top">
     <div class="container">
-      <img class="img-fluid mb-5 d-block mx-auto" src="img/seb.png" alt="">
+      <!-- <img class="img-fluid mb-5 d-block mx-auto" src="img/seb.png" alt=""> -->
+      <img src="img/oval.jpg" id="seb" class="img-fluid mb-5 d-block mx-auto rounded-circle">
       <h1 class="text-uppercase mb-0">Sébastien Portfolio</h1>
       <hr class="star-light">
       <h2 class="text-uppercase mb-0">bachelier en technologie de l'informatique</h2>
@@ -100,7 +109,7 @@
           </a>
           <tr>
             <th scope="row">2</th>
-            <td>Salon Astrid</td>
+            <td>Salon Astrid User Day</td>
             <td>04/10/2018</td>
             <td>Bruxelles</td>
             <td>9h</td>
@@ -224,6 +233,15 @@
             <td>4h</td>
             <td><a class="portfolio-item d-block mx-auto" href="#portfolio-modal-15">plus d'info</a></td>
           </tr>
+          <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><b>76h</b></td>
+              <td></td>
+            </tr>
         </tbody>
       </table>
     </div>
@@ -257,11 +275,53 @@
     <div class="container">
       <h2 class="text-center text-uppercase text-secondary">My Skills</h2>
       <hr class="star-dark mb-5">
-      <div class="row justify-content-md-center">
-        <div class="col-md-8 text-center">
-          <p class="lead">A remplir</p>
+
+      <div class="container">
+        <div class="container gallery-container">
+          <div class="tz-gallery">
+            <div class="row mb-3">
+              
+              <div class="col-md-4">
+                    <img src="img/Office.png" alt="Park" class="card-img-top">
+              </div>
+
+              <div class="col-md-4">
+                    <img src="img/web.jpeg" alt="Park" class="card-img-top">
+              </div>
+
+              <div class="col-md-4">
+                    <img src="img/sql.png" alt="Park" class="card-img-top">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                    <img src="imhg" alt="Park" class="card-img-top">
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <a class="lightbox" href="images/rails.jpg">
+                    <img src="images/rails.jpg" alt="Park" class="card-img-top">
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <a class="lightbox" href="images/rocks.jpg">
+                    <img src="images/rocks.jpg" alt="Park" class="card-img-top">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <!-- <div class="row justify-content-md-center">
+        <div class="col-md-8 text-center">
+          <p class="lead"></p>
+        </div>
+      </div> -->
     </div>
   </section>
 
@@ -300,13 +360,7 @@
     <div class="container">
       <small>Copyright &copy; Your seb website 2019</small>
     </div>
-  </div>
 
-  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-  <div class="scroll-to-top d-lg-none position-fixed ">
-    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-      <i class="fa fa-chevron-up"></i>
-    </a>
   </div>
 
   <!-- Portfolio Modals -->
@@ -334,6 +388,9 @@
               Cette expérience était très sympa et j’ai noué des amitiés avec des Hollandais. Elle m’a aussi permis de
               voyager au Danemark qui est un pays très accueillant.
             </p>
+            <p>
+              <img src="img/preuve/Kolding.jpg" class="img-fluid">
+            </p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Fermer</a>
@@ -352,9 +409,9 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">Salon Astrid</h2>
+            <h2 class="text-secondary text-uppercase mb-0">Salon Astrid User Day</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
+            <img class="img-fluid mb-5" src="img/Astrid.png" alt="">
             <p class="mb-5">Le 4 octobre 2018, moi et mes 3 autres collègues sommes partis à Bruxelles pour participer à
               l’événement Astrid User Days. Cet événement se trouvait dans un salon de 3500 m² avec plus de 80 exposants
               provenant de toute l'Europe et plus de 1500 visiteurs du secteur de la sécurité publique. Elle permet
@@ -365,6 +422,9 @@
               futur. Nous avons assisté à des conférences de Proximus et de Nokia qui portaient sur l’utilisation des
               nouvelles technologies de télécommunication et la sécurité informatique.
               Nous avons été tous les 4 très bien accueillis durant ce salon bien que nous étions les seuls jeunes.
+            </p>
+            <p>
+              <img src="img/preuve/Astrid 2.jpg" class="img-fluid">
             </p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
@@ -394,6 +454,9 @@
             <p class="mb-5">Je n’étais pas intéressé par leur stage car c’était dans le domaine du développement.
               Je trouve leur ASBL utile pour les développeurs qui veulent mettre en place un projet.
               Je recommanderais à quelqu’un d’aller dans leur centre si celui-ci à besoin d’aide en programmation. </p>
+            <p>
+              <img src="img/preuve/preuve.PNG" class="img-fluid">
+            </p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Fermer</a>
@@ -414,7 +477,7 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Assyst Europe</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
+            <img class="img-fluid mb-5" src="img/assyst.png" alt="">
             <p class="mb-5">Assyst Europe est une entreprise IT dans les domaines du cloud, de la sécurité,
               création d’infrastructure réseau, … Ils sont situés à Braine-l'Alleud et compte une cinquantaine
               d’employés.</p>
@@ -422,6 +485,9 @@
               Ils cherchaient un stagiaire qu'ils pourraient recruter par la suite.
               Malheureusement, l’entreprise se situait loin de chez moi sinon j’aurai été intéressé de réaliser mon
               stage chez eux.</p>
+            <p>
+              <img src="img/preuve/présentation Assyst Europe Stage.jpg" class="img-fluid">
+            </p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Fermer</a>
@@ -430,7 +496,6 @@
       </div>
     </div>
   </div>
-
 
 
   <!-- Portfolio Modal 5 -->
@@ -444,7 +509,7 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Formation BI et C#</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/safe.png" alt="">
+            <img class="img-fluid mb-5" src="img/techno.jpg" alt="">
             <p class="mb-5">La formation était réalisée par Technofutur TIC qui est situé à Gosselies. Nous nous sommes
               rendus là-bas durant les vacances de Pâques du 3 avril 2018 au 6 avril 2018.
               Nous avons eu la chance d'avoir deux formations.
@@ -455,6 +520,9 @@
               solutions sont beaucoup utilisées de nos jours.</p>
             <p class="mb-5">Les formateurs de Technofutur sont très compétents et savent bien enseigner. Je n’ai pas de
               regret à avoir été à cette semaine de formation durant mes vacances. </p>
+            <p>
+              <img src="img/preuve/Technofutur seb.jpeg" class="img-fluid">
+            </p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Fermer</a>
@@ -463,7 +531,6 @@
       </div>
     </div>
   </div>
-  <p class="mb-5"></p>
 
   <!-- Portfolio Modal 6 -->
   <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
@@ -476,7 +543,7 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Présentation Odoo</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
+            <img class="img-fluid mb-5" src="img/odoo.png" alt="">
             <p class="mb-5">Odoo est une suite d'applications professionnelles et open source couvrant tous les besoins
               d’une société : CRM, ERP, eCommerce, comptabilité, inventaire, point de vente, gestion de projets, … Ils
               sont une grande entreprise qui compte 500 employés à travers le monde.</p>
@@ -484,6 +551,9 @@
               ainsi que les langages qu’ils utilisent et leurs méthodes de travail. Cette conférence m’a permis de mieux
               comprendre ce qu’était Odoo parce qu’on les voit souvent mais on ne sait pas ce qu’ils proposent.</p>
             <p class="mb-5"></p>
+            <p>
+              <img src="img/preuve/Odoo.jpg" class="img-fluid">
+            </p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Fermer</a>
@@ -504,7 +574,7 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Formation Xamarin du MIC</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
+            <img class="img-fluid mb-5" src="img/MIC.jpg" alt="">
             <p class="mb-5">Xamarin est un Framework .NET pour le développement d’applications mobiles qui appartient à
               Microsoft et qui utilise le C#. Sa force est qu’il est multi-plateformes (IOS, Android et Windows phone)
               et
@@ -514,7 +584,9 @@
             <p class="mb-5">Ils nous ont fait un PowerPoint pour nous expliquer et nous faire comprendre l’utilité de ce
               Framework. Nous avons appris les bases pour pouvoir créer une application mobile. Nous avons réalisé cela
               sur Visual Studio. </p>
-
+            <p>
+              <img src="img/preuve/preuve.PNG" class="img-fluid">
+            </p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Fermer</a>
@@ -535,7 +607,7 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Présentation du Cyber Security Challenge</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
+            <img class="img-fluid mb-5" src="img/secu.png" alt="">
             <p class="mb-5">Le "Cyber Security Challenge" a pour but de sensibiliser les étudiants qui sont sur le point
               de finir leur formation. C'est une compétition de sécurité informatique, basée sur le principe de Capture
               The Flag, un jeu constitué de challenges réalisés par des équipes de 4 étudiants. Ces équipes devront
@@ -545,6 +617,9 @@
               sécurité bien qu’il y avait un chalenge plus facile pour ceux qui avaient moins de connaissances dans le
               domaine de la sécurité informatique.</p>
             <p class="mb-5"></p>
+            <p>
+              <img src="img/preuve/Odoo.jpg" class="img-fluid">
+            </p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Fermer</a>
@@ -565,7 +640,7 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Participation au speed dating stage</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
+            <img class="img-fluid mb-5" src="img/preuve/speed date 1.jpg" alt="">
             <p class="mb-5">Lors d'un retour de stage, nous avons eu pour but de rencontrer différents élèves de
               deuxième année afin de leur expliquer nos diverses expériences au sein du stage en entreprise. Çela permet
               ainsi de préparer les étudiants de deuxième à leurs futures recherches de stage.</p>
@@ -576,6 +651,9 @@
               permis de savoir plus facilement quel stage choisir.
             </p>
             <p class="mb-5"></p>
+            <p>
+              <img src="img/preuve/speed date 2.jpg" class="img-fluid">
+            </p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Fermer</a>
@@ -596,7 +674,7 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Formation C</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
+            <img class="img-fluid mb-5" src="img/mooc.png" alt="">
             <p class="mb-5">Cette formation "programmer en C" était proposée par notre professeur de système
               d’exploitation (Madame Masson) afin de réaliser par la suite un projet en C. </p>
             <p class="mb-5">Cette formation en ligne se trouve sur Fun MOOC. Elle était bien construite grâce à un
@@ -604,6 +682,9 @@
               l’informatique et dans d’autres domaines. </p>
             <p class="mb-5">Après cela, j’ai pu mieux comprendre le langague C et cela m’a aidé à réaliser le projet par
               après et de mieux comprendre le cours de systèmes d'exploitation.</p>
+            <p>
+              <img src="img/preuve/programmerC.PNG" class="img-fluid">
+            </p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Fermer</a>
@@ -624,7 +705,7 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">IT job day 2017-2018</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
+            <img class="img-fluid mb-5" src="img/ephec.png" alt="">
             <p class="mb-5">L'IT Jobs Days est un événement organisé par l'Ephec qui a pour objectif d'inviter de
               nombreuses entreprises dans le domaine de l’informatique. Nous avons pu donc rencontrer ces diverses
               entreprises qui ont présenté leurs activités et comment ils fonctionnent. Nous avons eu aussi
@@ -634,6 +715,9 @@
               intéressé. J’ai aussi pu rencontrer d’autres entreprises mais elles m’ont moins intéressé. Je n’ai
               pas eu beaucoup de temps car j’avais eu cours juste avant.</p>
             <p class="mb-5"></p>
+            <p>
+              <img src="img/preuve/Job It day 2018.jpg" class="img-fluid">
+            </p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Fermer</a>
@@ -654,7 +738,7 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">IT job day 2018-2019</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
+            <img class="img-fluid mb-5" src="img/ephec.png" alt="">
             <p class="mb-5">L'IT Jobs Days est un événement organisé par l'Ephec qui a pour objectif d'inviter de
               nombreuses entreprises dans le domaine de l’informatique. Nous avons pu donc rencontrer ces diverses
               entreprises qui ont présenté leurs activités et comment ils fonctionnent. Nous avons eu aussi
@@ -664,6 +748,9 @@
               permis d’avoir des contacts avec mon futur lieu de stage en rapport avec mon master en Business Analyst.
               Infrabel, Allianz et d’autres entreprises m’ont également intéressé. </p>
             <p class="mb-5"></p>
+            <p>
+              <img src="img/preuve/job day 1.jpg" class="img-fluid">
+            </p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Fermer</a>
@@ -684,7 +771,7 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Hockey</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
+            <img class="img-fluid mb-5" src="img/hockey.jpg" alt="">
             <p class="mb-5">J’ai commencé à jouer au hockey en club depuis mes 9 ans. Il se joue sur un terrain
               synthétique mouillé et il y a des 2 équipes de 11 joueurs munis d’un stick pour marquer des goals
               à partir d’une certaine zone. </p>
@@ -693,6 +780,9 @@
               stratégies, la confiance entre coéquipiers, … </p>
             <p class="mb-5">Ce sport comporte beaucoup de règles et il m’a permis de m’épanouir dans une discipline
               assez technique.</p>
+            <p>
+              <img src="" class="img-fluid">
+            </p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Fermert</a>
@@ -713,7 +803,7 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Deliveroo</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
+            <img class="img-fluid mb-5" src="img/deliveroo.png" alt="">
             <p class="mb-5">Deliveroo est une entreprise de livraison de plats à domicile (à vélo ou en scooter) qui
               s’implante dans beaucoup de villes d’Europe. Elle emploie surtout des étudiants pour livrer les
               repas. Les restaurants payent pour pouvoir bénéficier du service de livraison de Deliveroo. L’entreprise
@@ -725,6 +815,9 @@
               l’entreprise sont sympas et on fait de chouettes connaissances. J’apprends à gérer différentes situations
               à
               travers cet emploi et à communiquer avec des clients grâce à l'application de l'entreprise.</p>
+            <p>
+              <img src="img/preuve/deliveroo.PNG" class="img-fluid">
+            </p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Fermer</a>
@@ -745,7 +838,7 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Job dating de la STIB</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
+            <img class="img-fluid mb-5" src="img/stib.png" alt="">
             <p class="mb-5">La STIB est la société de transports en commun dans la région bruxelloise qui déssert ses 19
               communes. Elle compte 9000 employés avec plus de 300 fonctions différentes. Elle a un réseau de
               trams, bus et métros.</p>
@@ -759,6 +852,9 @@
               pour
               la STIB parce leurs infrastructures sont performantes et l’ambiance générale au sein du personnel semble
               bonne.</p>
+            <p>
+              <img src="img/preuve/STIB 3.jpg" class="img-fluid">
+            </p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Fermer</a>
